@@ -1,0 +1,64 @@
+.Project {
+  position: relative;
+
+  .Title-and-Progressbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: orange;
+    //   display: flex;
+    font-size: 2.4rem;
+    text-align: center;
+    background-color: #0c0c1d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      font-weight: bolder;
+    }
+
+    .progress {
+      width: 80%;
+      height: 10px;
+      background-color: #fff;
+      transform-origin: left center; // Ensure it scales from the left
+    }
+  }
+}
+//
+.projectSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  h1 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .mt-sm {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .imgDiv {
+    width: 600px;
+    height: auto;
+  }
+  .content {
+    h1 {
+      font-size: 2rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,145 @@
+.hero {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #0C0C1D, #111132);
+  position: relative;
+  display: flex;
+  z-index: -1;
+  // overflow: hidden;
+}
+
+.wrapperHero {
+  width: 100vw; 
+  // padding-inline: 100px;
+}
+
+.textContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+
+  img {
+    width: 50px;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: rgb(153, 80, 226);
+    letter-spacing: 3px;
+    font-weight: 900;
+  }
+
+  h1 {
+    font-size: 50px;
+
+    span {
+      background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+      background-clip: text;
+      color: transparent;
+    }
+  }
+}
+
+// .imageContainer {
+//   // position: absolute;
+//   height: 100%;
+//   top: -290px;
+//   right: 0;
+
+//   img {
+//     height: 100vh;
+//     margin-right: 100px;
+//   }
+// }
+
+.button {
+  display: flex;
+
+  .btn {
+    padding: 20px ;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer; /* Ensuring cursor pointer */
+    z-index: 1; /* Adding z-index to bring it above */
+    position: relative; /* Adding position to support z-index */
+    // overflow: hidden;
+
+  }
+}
+.nikul{
+  filter: drop-shadow(0px 0px 10px #2d2d7c96);
+}
+.slidingTextContainer{
+  position: absolute;
+  font-size: 40vh;
+  bottom: -40px;
+  z-index: -2;
+  opacity: 0.04;
+  // overflow: hidden;
+
+  white-space: nowrap;
+padding-inline: 30px;
+}
+
+@media (min-width: 596px) and (max-width: 992px) {
+  .img-hide{
+    /* Your styles for this screen size range */
+    display: none !important;
+  }
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+
+  img {
+      height: 40px;
+      width: 40px;
+  }
+}
+@media (min-width: 1002px) {
+  .hide-show {
+    display: none;
+  }
+}
+@media (min-width: 500px) {
+  .hide-show {
+    display: none;
+  }
+  .animate h1{
+    font-size: 12px;
+  }
+  
+}
+@media (max-width: 500px) {
+  .btn{
+    font-size: 10px;
+    padding: 10px 10px !important;
+
+  }
+  .h1{
+    font-size: 12px;
+  }
+  .mb-5{
+    margin-bottom: 5rem !important;
+  }
+  .mb{
+    margin-bottom: 10rem;
+  }
+}
+
+@media (width:450px){
+.h1{
+  font-size: 10px;
+}
+}
+@media (min-width: 576px) and (max-width: 600px) {
+  .hidden-576-600 {
+    display: none;
+  }
+}

@@ -1,0 +1,1163 @@
+// Skills.scss
+#Skills{
+background-image: url(/d.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.centerMain{
+    position: absolute;
+    width: 100%;
+    height: 100% !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    // background-color: aliceblue;
+    // background-image: url(/skillPOPbg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    
+
+}
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // align-items: ;
+    gap: 20px;
+    padding: 20px;
+    // background-color: #f8f9fa;
+    position: relative;
+  }
+  
+  .id {
+    position: relative;
+    // width: 300px;
+    padding:0px 0px ;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  
+    &:hover {
+      transform: scale(1.05);
+      border-color: #007bff;
+    }
+    h2{
+        font-size:2rem ;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 4px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.2s;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
+  .center {
+    // width: 50rem;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center
+    ;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: #c4c3c391;
+    backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px rgba(227,228,237,03);
+    h5 {
+      color: #007bff;
+    }
+  
+    h2 {
+      margin: 10px 0;
+    }
+  
+    button {
+        top: 16px;
+        left: 80%;
+        position: absolute;
+        border-radius: 50%;
+        border: none;
+        padding: 12px;
+        width: 50px;
+        opacity: 0.5;
+  
+      &:hover {
+        // border: 1px solid #fff;
+
+        box-shadow: 0px 0px 20px #fff;
+        color: #fff;
+        transition: 0.3s;
+        background-color: #c82333;
+        opacity: 1;
+      }
+    }
+  }
+ 
+
+  #Skills{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.id{
+    // margin: 20px;
+    border-radius:20px ;
+}
+.center{
+    width: 30rem;
+    padding: 40px;
+    position: static;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    
+
+}
+.id{
+
+    .animated-image{
+        width: 100px;
+        height: 100px;
+        margin: 30px 50px;
+    }
+}
+.center{
+    img{
+        width: 150px;
+        height: 150px; 
+    }
+}
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.animated-image {
+    animation: upDown 2s infinite;
+}
+ @media (max-width:1000px) {
+    .main1{
+.id{
+    .animated-image{
+        width: 50px;
+        height: 50px;
+        margin: 10px 5px;
+    }
+}
+h2{
+    font-size:1.5rem ;
+}
+    }
+    
+ }
+ @media (max-width:768px) {
+    .main1{
+.id{
+    .animated-image{
+        width: 100px;
+        height: 100px;
+        margin: 10px 5px;
+    }
+}
+h2{
+    font-size:1rem ;
+}
+
+    }
+    
+ }
+ @media (max-width:530px) {
+    .main1{
+.id{
+    .animated-image{
+        width: 70px;
+        height: 70px;
+        margin: 10px 5px;
+    }
+}
+h2{
+    font-size:0.7rem ;
+}
+
+    }
+    
+ }
+ @media (max-width:360px) {
+    .main1{
+.id{
+    width: 100px;
+    .animated-image{
+        width: 40px;
+        height: 40px;
+        margin: 10px 5px;
+    }
+}
+}
+.loader1,.loader2,.loader3,.loader4,.loader5,.loader6,.loader7,.loader8,.loader9,.loader10{
+   width: 200px !important;
+}
+
+    .center{
+    width: 250px;
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    color: #FFF;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    
+
+}
+ }
+ .id{
+    backdrop-filter: blur(2px);
+    // box-shadow: 0px 0px 30px rgba(227,228,237,03);
+    background-color: #00000065;
+ }
+
+
+ @media (min-width: 360px) and (max-width: 450px) {
+    .loader1,.loader2,.loader3,.loader4,.loader5,.loader6,.loader7,.loader8,.loader9,.loader10{
+        width: 250px !important;
+     }
+}
+
+// //  loader===================///////////=======================/////////////////////////////=====================
+//  .loader1,.loader2,.loader3,.loader4,.loader5,.loader6,.loader7,.loader8,.loader9,.loader10 {
+//     display: block;
+//     position: relative;
+//     height: 32px;
+//     width: 300px;
+//     border-radius: 25px;
+//     background: #fff;
+//     border: 2px solid #fff;
+//     color: rgb(223, 60, 60);
+//     overflow: hidden;
+//   }
+  
+//   .loader1::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_1 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader1:after {
+//     content: '80%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_1 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_1 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 80%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_1 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+  
+//     70% {
+//       content: "70%";
+//     }
+  
+//     80% {
+//       content: "80%";
+//     } 
+   
+//   }
+
+// //  loader2=======================///////////============================////////////=================================
+
+  
+//   .loader2::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_1 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader2:after {
+//     content: '85%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_1 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_2 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 85%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_2 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+  
+//     70% {
+//       content: "70%";
+//     }
+  
+//     80% {
+//       content: "80%";
+//     } 
+//     85% {
+//         content: "85%";
+//       } 
+//   }
+// //  loader3=======================///////////============================////////////=================================
+  
+//   .loader3::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_3 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader3:after {
+//     content: '70%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_3 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_3 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 70%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_3 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+  
+//     70% {
+//       content: "70%";
+//     }
+//   }
+  
+// //  loader4=======================///////////============================////////////=================================
+  
+//   .loader4::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_4 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader4:after {
+//     content: '70%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_4 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_4 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 70%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_4 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+  
+//     70% {
+//       content: "70%";
+//     }
+//   }
+  
+// //  loader5=======================///////////============================////////////=================================
+  
+//   .loader5::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_5 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader5:after {
+//     content: '70%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_4 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_5 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 70%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_5 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+  
+//     70% {
+//       content: "70%";
+//     }
+//   }
+  
+// //  loader6=======================///////////============================////////////=================================
+  
+//   .loader6::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_6 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader6:after {
+//     content: '80%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_6 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_6 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 80%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_6 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+  
+//     70% {
+//       content: "70%";
+//     }
+//     80% {
+//       content: "80%";
+//     }
+//   }
+  
+// //  loader7=======================///////////============================////////////=================================
+  
+//   .loader7::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_7 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader7:after {
+//     content: '85%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_7 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_7 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 85%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_7 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+  
+//     70% {
+//       content: "70%";
+//     }
+//     80% {
+//       content: "80%";
+//     }
+//     85% {
+//       content: "85%";
+//     }
+//   }
+  
+// //  loader8=======================///////////============================////////////================================= 
+//   .loader8::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_8 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader8:after {
+//     content: '90%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_8 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_8 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 90%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_8 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+  
+//     70% {
+//       content: "70%";
+//     }
+//     80% {
+//       content: "80%";
+//     }
+//     85% {
+//       content: "85%";
+//     }
+//     90% {
+//       content: "90%";
+//     }
+//   }
+  
+// //  loader9=======================///////////============================////////////================================= 
+//   .loader9::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_9 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader9:after {
+//     content: '60%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_9 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_9 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 60%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_9 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+//     50% {
+//       content: "50%";
+//     }
+  
+//     60% {
+//       content: "60%";
+//     }
+//   }
+  
+// //  loader10=======================///////////============================////////////================================= 
+//   .loader10::before {
+//     content: '';
+//     background: rgb(223, 60, 60);
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 0; /* Start width */
+//     height: 100%;
+//     animation: loading_10 4s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   .loader10:after {
+//     content: '40%'; /* Default content for final state */
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: 18px;
+//     line-height: 32px;
+//     color: rgb(0,255,255);
+//     mix-blend-mode: difference;
+//     animation: percentage_10 5s linear forwards; /* Animation runs once and maintains final state */
+//   }
+  
+//   @keyframes loading_10 {
+//     0% {
+//       width: 0;
+//     }
+  
+//     100% {
+//       width: 40%; /* Final width */
+//     }
+//   }
+  
+//   @keyframes percentage_10 {
+//     0% {
+//       content: "0%";
+//     }
+  
+//     5% {
+//       content: "5%";
+//     }
+  
+//     10% {
+//       content: "10%";
+//     }
+  
+//     20% {
+//       content: "20%";
+//     }
+  
+//     30% {
+//       content: "30%";
+//     }
+  
+//     40% {
+//       content: "40%";
+//     }
+  
+    
+//   }
+
+// Loader Styles
+$loader-widths: (
+  1:    80%,
+  2: 85%,
+  3: 70%,
+  4: 70%,
+  5: 70%,
+  6: 80%,
+  7: 85%,
+  8: 90%,
+  9: 60%,
+  10: 40%
+);
+
+@each $key, $width in $loader-widths {
+  .loader#{$key} {
+    position: relative;
+    height: 32px;
+    width: 300px;
+    border-radius: 25px;
+    background: #fff;
+    border: 2px solid #fff;
+    color: rgb(223, 60, 60);
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      background: rgb(223, 60, 60);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0;
+      height: 100%;
+      animation: loading_#{$key} 2s linear forwards;
+    }
+
+    &::after {
+      content:"#{$width}";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-size: 18px;
+      line-height: 32px;
+      color: rgb(0, 255, 255);
+      mix-blend-mode: difference;
+      animation: percentage_#{$key} 2s linear forwards;
+    }
+  }
+
+  @keyframes loading_#{$key} {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: $width;
+    }
+  }
+
+  // @keyframes percentage_#{$key} {
+  //   @for $i from 0 through $width {
+  //     #{$i * 2}%{
+  //       content: "#{$width}";
+  //     }
+  //   }
+  // }
+  @keyframes percentage_#{$key} {
+    0% {
+      content: '0%';
+    }
+
+    @for $i from 1 through 10 {
+      #{$i * 10}% {
+        $current-value: $i * ($width / 10);
+        content: '#{$current-value}';
+      }
+    }
+  }
+} 
+.id::before {
+  content:url("/clickme.gif");
+  display: flex;
+  color: #fff;
+  font-size: large;
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  background-color: rgba(#000B25, 0.8);
+  position: absolute; /* Position the pseudo-element absolutely */
+  top: 100%;
+  left: 50%;
+  right: 50%;
+  bottom: 30%;
+  z-index: 1;
+transition: all 0.3s ease-in;
+border-radius: 15px;
+}
+.id:hover::before{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0px;
+}

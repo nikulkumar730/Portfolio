@@ -1,0 +1,44 @@
+
+
+.navbar {
+    height: 100px;
+
+
+    .wrapper {
+        width: 100vw !important;
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        span {
+            font-weight: bold;
+        }
+
+        .social {
+            display: flex;
+            gap: 20px;
+
+            img {
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 575.98px) {
+    .text-xs-small1 {
+      font-size: 1rem; /* Adjust the size as needed */
+      
+    }
+    .wrapper>span{
+        margin-left: 5rem !important;
+
+    }  
+    .wrapper>span>:nth-child(1){
+        margin-right:15px ;
+    }
+
+  }
